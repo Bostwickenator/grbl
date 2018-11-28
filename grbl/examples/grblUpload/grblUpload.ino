@@ -14,11 +14,15 @@ To use:
 For advanced users:
   If you'd like to see what else Grbl can do, there are some additional
   options for customization and features you can enable or disable. 
-  Navigate your file system to where the Arduino IDE has stored the Grbl 
-  source code files, open the 'config.h' file in your favorite text 
+  Navigate your file system to the Arduino IDE 'libraries' directory and
+  locate the 'grbl' directory, open the 'config.h' file in your favorite 
   editor. Inside are dozens of feature descriptions and #defines. Simply
   comment or uncomment the #defines or alter their assigned values, save
   your changes, and then click 'Upload' here. 
+  
+  Be careful not to make edits to 'config.h' in the directory you 
+  imported grbl from, any such changes will not be honnored as the 
+  Arduino IDE is using the files in the 'libraries' directory.
 
 Copyright (c) 2015 Sungeun K. Jeon
 Released under the MIT-license. See license.txt for details.
